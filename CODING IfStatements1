@@ -1,0 +1,22 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class IfStatement {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double amount,balance;
+		
+		System.out.println("Please enter your amount :");
+		amount=in.nextDouble();
+		System.out.println("Please enter your balance :");
+		balance=in.nextDouble();
+		
+		if(amount<=balance)
+			balance=balance-amount;
+		System.out.println("Your current balance is : " + balance);
+
+	}
+
+}
