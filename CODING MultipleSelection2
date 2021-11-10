@@ -1,0 +1,35 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class DeterminGrade {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int mark;
+		char grade;
+		
+		 System.out.println("Please the your mark :");
+	     mark=in.nextInt();
+		
+		if (mark >= 90) {
+			  grade = 'A';
+		 System.out.println("Your grade is " + grade);}
+		else if (mark >= 80) {
+				grade = 'B';
+		System.out.println("Your grade is " + grade);}
+			else if (mark >= 70) {
+				grade = 'C';
+				System.out.println("Your grade is " + grade);}
+			else if (mark >= 60) {
+				grade = 'D';
+				System.out.println("Your grade is " + grade);}
+			else  { 
+			  grade = 'F';
+			  System.out.println("Your grade is " + grade);}
+					     
+
+
+	}
+
+}
