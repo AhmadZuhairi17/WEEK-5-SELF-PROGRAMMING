@@ -1,0 +1,22 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class count {
+
+	public static void main(String[] args) {
+		Scanner rc=new Scanner(System.in);
+		double y,x;
+		
+		 System.out.println("Enter y value : ");
+		 y=rc.nextDouble();
+		 System.out.println("Enter x value : ");
+		 x=rc.nextDouble();
+		 
+			if (y!=x)
+	     System.out.println("Result : y not equal x");
+
+
+	}
+
+}
