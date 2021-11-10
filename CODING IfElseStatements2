@@ -1,0 +1,28 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class BlockStatements2 {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double amount,balance,OVERDRAFT_PENALTY=5.00;
+		
+		System.out.println("Please enter your amount :");
+		amount=in.nextDouble();
+		System.out.println("Please enter your balance :");
+		balance=in.nextDouble();
+		
+		if (amount <= balance)
+		{balance = balance - amount;
+		System.out.println("Acct new balance = " + balance);
+		}
+		else
+		{
+		      balance = balance - OVERDRAFT_PENALTY;
+			    System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+
+	}
+
+}
