@@ -1,0 +1,24 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class LogicalOperator2 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double amount,balance;
+		
+		 System.out.println("Enter an amount : ");
+		 amount=sc.nextDouble();
+		 System.out.println("Enter a balance : ");
+		 balance=sc.nextDouble();
+		
+		if  ((amount <= 1000.0) && (amount <= balance))
+		{
+			   balance = balance - amount;
+			   System.out.println("Acct new balance = " + balance);
+		}
+
+	}
+
+}
