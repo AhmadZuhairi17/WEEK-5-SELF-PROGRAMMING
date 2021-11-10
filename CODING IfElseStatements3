@@ -1,0 +1,23 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class CombineBlockOperators {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int age;
+		
+		System.out.println("Please enter your age :");
+		age=in.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{System.out.println("You are qualified to apply");
+		}
+		else {
+		 System.out.println("You are NOT qualified to apply"); }
+
+
+	}
+
+}
