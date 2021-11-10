@@ -1,0 +1,26 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class BlockStatements {
+
+	public static void main(String[] args) {
+		Scanner rc=new Scanner(System.in);
+		double total,MAX;
+		int errorCount=1;
+		
+		 System.out.println("Enter a total : ");
+		 total=rc.nextDouble();
+		 System.out.println("Enter a MAX : ");
+		 MAX=rc.nextDouble();
+		 
+		if (total > MAX)
+		{
+		   System.out.println ("Error!!");
+		   errorCount++;
+		}
+
+
+	}
+
+}
