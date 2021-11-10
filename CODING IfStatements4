@@ -1,0 +1,25 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class LogicalOperators {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double income,MIN_LEVEL;
+		int age;
+		
+		System.out.println("Enter your age : ");
+		age=sc.nextInt();
+		System.out.println("Enter your income : ");
+		income=sc.nextDouble();
+		System.out.println("Enter your minimum level : ");
+		MIN_LEVEL=sc.nextDouble();
+		
+		
+		if ((income > MIN_LEVEL ) && (age <50))
+			   System.out.println ("Can Apply Loan");
+
+	}
+
+}
